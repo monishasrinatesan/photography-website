@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+
+header h1 {
+    text-align: center;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.img{
+    height: 150px;
+}
+.about-image{
+    background-image: url('a 2 img.avif');
+    background-size: cover;
+    height: 60vh;
+    padding: 50px;
+    color: #fff;
+}
+.backgrond-image {
+    background:url('f 1 img.jpg');
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.background-image-text {
+    text-align: center;
+    color: black;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin-top: 15px;
+}
+.hello{
+    background-image: url('c imag.webp');
+}
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+img{
+    transition: 0.3s;
+}
+img:hover{
+    transform: translateY(-4px);
+    scale: 1.09;
+}
